@@ -1,0 +1,61 @@
+body
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+}
+
+.flex-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-size: 3em;
+
+    border-style: dotted;
+    border-radius: 50pc;
+    width: 26pc;
+    border-color: red;
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+span
+{
+    color: red;
+}
+
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-bottom: 25px;
+}
+
+table
+{
+    border-collapse: separate;
+    border-spacing: 25px 0px;
+
+    text-align: center;
+}
