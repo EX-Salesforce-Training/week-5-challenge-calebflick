@@ -10,6 +10,8 @@ body
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
+
+    text-align: center;
 }
 
 h1
@@ -58,4 +60,11 @@ table
     border-spacing: 25px 0px;
 
     text-align: center;
+}
+
+ul
+{
+    list-style-position: inside;
+    text-align: center;
+    padding-left: 0px;
 }
